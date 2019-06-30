@@ -138,5 +138,5 @@ if __name__ == '__main__':
     directory_to_clean_from = '/Users/berthin/Pictures/Photos Library.photoslibrary/Masters'
     directory_to_compare_with = '/Users/berthin/fotos Nikon'
     directory_to_save_all_files = '/Users/berthin/photos-recovered'
-    baquium = Cleaner()
-    baquium.run(directory_to_clean_from, directory_to_compare_with, directory_to_save_all_files)
+    vacuum = Cleaner()
+    vacuum.run(directory_to_clean_from, directory_to_compare_with, directory_to_save_all_files)
